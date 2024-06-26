@@ -43,24 +43,23 @@ article {
     padding-top: 10vw;
     padding-bottom: 10vh;
     padding-left: 2vh;
+    font-family: var(--fonte-escrita);
+    font-size: 3vw;
+    line-height: 2.0;
 }
 article > p {
-    font-size: 2.5vw;
-    height: 100%;
-    font-family: var(--fonte-escrita);
-    line-height: 2.5;
-    width: 40vw;
+    display: inline-block;
 }
 article#img-1 {
-    background: black url('../imagens/background001.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: black url('../imagens/background001.jpg') no-repeat right center fixed;
 }
 article#img-2 {
     background: black url('../imagens/background002.jpg') no-repeat center center fixed;
-    background-size: cover;
 }
 article.imagem {
     color:white;
+    box-shadow: inset 1px 1px 13px 0px rgba(0, 0, 0, 0.644);
+    background-size: cover
 }
 article.imagem p {
     background-color: rgba(0, 0, 0, 0.534);
